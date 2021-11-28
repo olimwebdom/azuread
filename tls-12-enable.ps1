@@ -1,3 +1,5 @@
+# Source: https://docs.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-tls-enforcement
+
 If (-Not (Test-Path 'HKLM:\SOFTWARE\WOW6432Node\Microsoft\.NETFramework\v4.0.30319'))
 {
     New-Item 'HKLM:\SOFTWARE\WOW6432Node\Microsoft\.NETFramework\v4.0.30319' -Force | Out-Null

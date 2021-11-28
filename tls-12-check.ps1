@@ -1,3 +1,5 @@
+# Source: https://docs.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-tls-enforcement
+
 Function Get-ADSyncToolsTls12RegValue
 {
     [CmdletBinding()]
